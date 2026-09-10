@@ -38,4 +38,5 @@ Thumbs.db
 # Local portable tool binaries
 git/
 nodejs/
+gh/
 *.zip
