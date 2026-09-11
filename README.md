@@ -1,12 +1,19 @@
-# IBVAP — Intelligent Border Video Analytics Platform
+# EdgeEye — Intelligent Border Video Analytics Platform
 
-[![SIH 2026 Prototype](https://img.shields.io/badge/SIH-2026-blue.svg)](https://sih.gov.in)
+[![Frontend Deployed on Vercel](https://img.shields.io/badge/Frontend-Vercel%20Live-black.svg?logo=vercel)](https://frontend-vert-nu-79.vercel.app)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/tram2087/EdgeEye)
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688.svg)](https://fastapi.tiangolo.com)
 [![React](https://img.shields.io/badge/Frontend-React%20%7C%20Vite-61DAFB.svg)](https://react.dev)
-[![Tailwind CSS](https://img.shields.io/badge/Theme-Dark%20SOC-06B6D4.svg)](https://tailwindcss.com)
 [![Ultralytics YOLO](https://img.shields.io/badge/AI-YOLOv8%20%2B%20ByteTrack-FF6F00.svg)](https://ultralytics.com)
 
-**IBVAP** is an AI-powered, software-defined CCTV video analytics platform designed for smart border surveillance and perimeter security. It transforms ordinary CCTV and IP cameras into intelligent sentry nodes without requiring expensive proprietary smart-camera hardware.
+**EdgeEye** is an AI-powered, software-defined CCTV video analytics platform designed for smart border surveillance and perimeter security. It transforms ordinary CCTV and IP cameras into intelligent sentry nodes without requiring expensive proprietary smart-camera hardware.
+
+---
+
+## Live Deployments & Repository
+- **Frontend (Vercel)**: [https://frontend-vert-nu-79.vercel.app](https://frontend-vert-nu-79.vercel.app)
+- **GitHub Repository**: [https://github.com/tram2087/EdgeEye](https://github.com/tram2087/EdgeEye)
+- **1-Click Render Deploy**: [Deploy Backend to Render](https://render.com/deploy?repo=https://github.com/tram2087/EdgeEye)
 
 ---
 
@@ -17,7 +24,7 @@ Traditional border outposts and transit checkpoints operate thousands of standar
 - Replacing extensive camera networks with proprietary "AI cameras" costs tens of crores in capital expenditure.
 - Vendor lock-in prevents interoperability across diverse camera brands.
 
-**IBVAP delivers a software-defined solution:**
+**EdgeEye delivers a software-defined solution:**
 - **Hardware-Agnostic:** Ingests video from legacy analogue CCTV, digital NVRs, IP cameras (RTSP/ONVIF), local video files, USB webcams, and synthetic simulation feeds.
 - **Edge-Ready Analytics:** Runs real-time AI object detection, persistent multi-object tracking, and virtual fence enforcement directly on commodity edge gateways.
 - **Centralized Command Matrix:** Delivers a unified military Security Operations Center (SOC) dashboard with instantaneous alert triage, cryptographic evidence capture, and real-time ANPR watchlist verification.
