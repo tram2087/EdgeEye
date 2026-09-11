@@ -113,14 +113,14 @@ For SIH evaluation and testing, use the preconfigured demo accounts:
 
 ## 6. Preconfigured Border Outposts & Demo Mode
 
-IBVAP is pre-seeded with 4 tactical border outposts:
+EdgeEye is pre-seeded with 4 tactical border outposts:
 1. **`BOP-01`**: Sector Alpha — Forward Perimeter (Virtual Red Line Buffer)
 2. **`BOP-02`**: Sector Bravo — Riverine Bed (River Crossing Watch)
 3. **`BOP-03`**: Sector Charlie — High Ridge Observation Post
 4. **`CHECKPOST-01`**: Main Transit Checkpost & Gate (ANPR Target Zone)
 
 ### Autonomous Synthetic Border Simulation
-If physical CCTV cameras, RTSP streams, or GPUs are not attached to the host machine, IBVAP **automatically generates dynamic border video streams** with terrain, border fences, patrol personnel, vehicles, and real-time bounding box tracking. The platform **never crashes or displays broken blank screens**.
+If physical CCTV cameras, RTSP streams, or GPUs are not attached to the host machine, EdgeEye **automatically generates dynamic border video streams** with terrain, border fences, patrol personnel, vehicles, and real-time bounding box tracking. The platform **never crashes or displays broken blank screens**.
 
 ---
 
@@ -148,8 +148,8 @@ If physical CCTV cameras, RTSP streams, or GPUs are not attached to the host mac
 
 ## 8. Project Limitations & Ethical Guardrails
 
-- **Prototype Status:** IBVAP is an emergency demonstration MVP created for SIH 2026.
-- **No Unsupported Claims:** IBVAP does **NOT** claim to predict crime, assess criminal intent, or guarantee military-grade facial recognition accuracy.
+- **Prototype Status:** EdgeEye is a fully functioning demonstration platform.
+- **No Unsupported Claims:** EdgeEye does **NOT** claim to predict crime, assess criminal intent, or guarantee military-grade facial recognition accuracy.
 - **Explainable Behavioral Analytics:** All alerts are generated via mathematically transparent rule engines (e.g. entering a user-defined polygon, exceeding dwell duration, or matching a designated alphanumeric watchlist record).
 - **Synthetic Data Usage:** All names, vehicle numbers (`DEMO-001`, `DEMO-4821`), and locations (`Sector Alpha`) are completely fictional.
 
